@@ -1,0 +1,73 @@
+body{
+  margin:0;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: .25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+body{
+  margin:0px;
+  text-align: left;   
+}
+
+.main-body{
+  margin-top: 50px;
+}
+.top{
+  margin: 0px;
+  height: 80px;
+  background-color:  rgba(185, 181, 255, 0.16);
+  border-bottom: 3px solid;
+  border-color: #5D528F;
+}
+
+.top-icon{
+  
+  width: 80px;
+  height: 70px;
+  margin-left: 24px;
+  border-color: #5D528F;
+  float: left;
+}
+
+p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+
+color: #5D528F;
+width: 227.74px;
+height: 76px;
+margin-left: 113.87px;
+margin-top: 25px;
+}
+
+input[type=file]::file-selector-button {
+  border: 2px solid #5D528F;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #5D528F;
+  transition: 1s;
+}
+
+input[type=file]::file-selector-button:hover {
+  background-color: #5D528F;
+  border: 2px solid #5D528F;
+}
+
+.px-4{
+  background-color: #5D528F;
+}
+
